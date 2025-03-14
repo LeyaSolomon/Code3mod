@@ -1,0 +1,20 @@
+@font-face{
+    font-family:"Cormorant-Regular";
+    src:url(../Cormorant/static/Cormorant-Regular.ttf)format("truetype");
+    font-weight:medium;
+    font-style:normal;
+}   
+
+@font-face{
+    font-family:"InriaSerif-Bold";
+    src:url(../inriaserif/InriaSerif-Bold.otf)format("truetype");
+    font-weight:Bold;
+    font-style:Bold;
+}   
+
+@font-face{
+    font-family:"Snell\ Roundhand/";
+    src:url(../Snell\ Roundhand/)format("truetype");
+    font-weight:Bold;
+    font-style:Bold;
+} 

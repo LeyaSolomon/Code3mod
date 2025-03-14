@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(30,30,30);
+}
+
+.krug_green{
+    padding-left: 20%;
+    margin-top: 6%;
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+}
+
+.krug_green2{
+    padding-left: 60%;
+    margin-top: -28%;
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+}
