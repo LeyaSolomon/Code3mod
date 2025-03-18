@@ -305,7 +305,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
-/* .gradient_krug,.gradient_krug7,
+.gradient_krug,.gradient_krug7,
 .gradient_krug8,.gradient_krug4,
 .gradient_krug5{
     animation: rec1 3s infinite ease-in-out;
@@ -328,20 +328,6 @@ body{
     50%{scale: 1.2;} 
     100%{scale: 1;} 
 }
-
-.gradient_krug2{
-    animation: rec2 20s infinite ease-in-out;
-}
-
-@keyframes rec2{
-    0%{scale: 0.2;}
-    50%{scale: 0.5;} 
-    75%{scale: 1;} 
-    85%{scale: 1.2;} 
-    90%{scale: 0.5;}
-    100%{scale: 0.2;}
-}
-
 .flower2,.flower4{
     animation: rotateFlower 1s linear infinite;
 }
@@ -367,7 +353,7 @@ body{
 
 .krug_green2,.krug_green4,.krug_green6,.krug_green9{
     animation: rec231 8s infinite ease-in-out;
-} */
+}
 
 @keyframes rec231{
     0%{scale: 1.2;}
@@ -385,11 +371,11 @@ body{
 }
 
 .excursion{
-    font-size: 7vw;
+    font-size: 5vw;
     color: rgb(82, 107, 75);
     display: flex;
     position: absolute;
-    margin-top: 63%;
+    margin-top: 65%;
 }
 
 .fofairy{
@@ -416,4 +402,33 @@ body{
     width:43%;
     margin-left: 3%;
     margin-top: 2%;
+}
+
+.bloc2{
+    display: flex;
+    position: absolute;
+    margin-left: 3%;
+    width:43%;
+    margin-top: 41.5%;
+}
+
+.knopka{
+    width:22%;
+    display: flex;
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 52%;
+}
+
+/* .knopka:hover{
+    transition: transform 0.3s ease;
+}
+
+@keyframes transform{
+    0%{scale:1.1}
+    100%{scale:1}
+} */
+
+.knopka:hover{
+    transform: scale(1.1)
 }
