@@ -3,17 +3,417 @@ body{
 }
 
 .krug_green{
-    padding-left: 20%;
-    margin-top: 6%;
+    padding-left: 35%;
+    margin-top: 7%;
     width: 30vw;
     height: 30vw;
     opacity: 80%;
+    display: flex;
+    position: absolute;
 }
 
 .krug_green2{
     padding-left: 60%;
-    margin-top: -28%;
+    margin-top: 8%; 
     width: 30vw;
     height: 30vw;
     opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green3{
+    padding-left: 8%;
+    margin-top: 8%; 
+    width: 23vw;
+    height: 23vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green4{
+    padding-left: 8%;
+    margin-top: 49%; 
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green5{
+    padding-left: 48%;
+    margin-top: 52%; 
+    width: 23vw;
+    height: 23vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green6{
+    padding-left: 45%;
+    margin-top: 79%; 
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green7{
+    padding-left: 8%;
+    margin-top: 85%; 
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green8{
+    padding-left: 62%;
+    margin-top: 100%; 
+    width: 20vw;
+    height: 20vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.krug_green9{
+    padding-left:30%;
+    margin-top: 112%; 
+    width: 30vw;
+    height: 30vw;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug1{
+    background: radial-gradient(rgb(242,206,215),rgb(255,249,238)70%);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 3%;
+    margin-left: 50%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug2{
+    background: radial-gradient(rgb(245, 209, 133),rgb(250,105,118)70%);
+    border-radius: 50%;
+    width: 23vw;
+    height: 23vw;
+    margin-top: 30%;
+    margin-left: 10%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug3{
+    background: radial-gradient(rgb(255, 204, 180),rgb(82, 107, 75)70%);
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 34%;
+    margin-left: 35%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug4{
+    background: radial-gradient(rgb(82, 107, 75),rgb(242,206,215)70%);
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    margin-top: 34%;
+    margin-left: 68%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug5{
+    background: radial-gradient(rgb(242,206,215),rgb(250,105,118)70%);
+    border-radius: 50%;
+    width: 32vw;
+    height: 32vw;
+    margin-top: 72%;
+    margin-left: 20%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug6{
+    background: radial-gradient(rgb(250,105,118),rgb(245, 209, 133)70%);
+    border-radius: 50%;
+    width: 32vw;
+    height: 32vw;
+    margin-top: 63%;
+    margin-left: 62%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug7{
+    background: radial-gradient(rgb(255, 204, 180),rgb(82, 107, 75)70%);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 95%;
+    margin-left: 55%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug8{
+    background: radial-gradient(rgb(255, 204, 180),rgb(82, 107, 75)70%);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 116%;
+    margin-left: 15%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.gradient_krug9{
+    background: radial-gradient(rgb(245, 209, 133),rgb(250,105,118)70%);
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    margin-top: 116%;
+    margin-left: 50%;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+}
+
+.flower2{
+    margin-left: 76%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+    margin-top: 10%;
+}
+
+.lepestok2{
+    width:5vw;
+    height: 5vw;
+    background-color: rgb(250,105,118);
+    margin: 1px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s;
+    position: relative; 
+    transition: all 1s ease-in-out;
+}
+
+.flower3{
+    margin-left: 55%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+    margin-top: 30%;
+}
+
+.lepestok3{
+    width:5vw;
+    height: 5vw;
+    background-color: rgb(245, 209, 133);
+    margin: 1px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s;
+    position: relative; 
+    transition: all 1s ease-in-out;
+}
+
+.flower1{
+    margin-left: 10%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+    margin-top: 70%;
+}
+
+.lepestok1{
+    width:7vw;
+    height: 7vw;
+    background-color: rgb(245, 209, 133);
+    margin: 1px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s;
+    position: relative; 
+    transition: all 1s ease-in-out;
+}
+
+.flower4{
+    margin-left: 80%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+    margin-top: 80%;
+}
+
+.lepestok4{
+    width:5vw;
+    height: 5vw;
+    background-color: rgb(255, 204, 180);
+    margin: 1px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s;
+    position: relative; 
+    transition: all 1s ease-in-out;
+}
+
+.flower5{
+    margin-left: 30%;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out;
+    margin-top: 115%;
+}
+
+.lepestok5{
+    width:7vw;
+    height: 7vw;
+    background-color: rgb(245, 209, 133);
+    margin: 1px;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s;
+    position: relative; 
+    transition: all 1s ease-in-out;
+}
+
+/* .gradient_krug,.gradient_krug7,
+.gradient_krug8,.gradient_krug4,
+.gradient_krug5{
+    animation: rec1 3s infinite ease-in-out;
+}
+
+@keyframes rec1{
+    0%{scale: 1;}
+    50%{scale: 1.2;} 
+    100%{scale: 1;} 
+}
+
+.gradient_krug1,.gradient_krug2,
+.gradient_krug3,.gradient_krug6,
+.gradient_krug9{
+    animation: rec5 8s infinite ease-in-out;
+}
+
+@keyframes rec5{
+    0%{scale: 1;} 
+    50%{scale: 1.2;} 
+    100%{scale: 1;} 
+}
+
+.gradient_krug2{
+    animation: rec2 20s infinite ease-in-out;
+}
+
+@keyframes rec2{
+    0%{scale: 0.2;}
+    50%{scale: 0.5;} 
+    75%{scale: 1;} 
+    85%{scale: 1.2;} 
+    90%{scale: 0.5;}
+    100%{scale: 0.2;}
+}
+
+.flower2,.flower4{
+    animation: rotateFlower 1s linear infinite;
+}
+
+.flower1,.flower3,.flower5{
+    animation: rotateFlower 10s linear infinite;
+}
+
+@keyframes rotateFlower {
+    from { transform: rotate(45deg); }
+    to { transform: rotate(405deg); }
+}
+
+.krug_green5,.krug_green3,.krug_green1,.krug_green8,.krug_green7{
+    animation: rec23 8s infinite ease-in-out;
+}
+
+@keyframes rec23{
+    0%{scale: 1;} 
+    50%{scale: 1.2;} 
+    100%{scale: 1;} 
+}
+
+.krug_green2,.krug_green4,.krug_green6,.krug_green9{
+    animation: rec231 8s infinite ease-in-out;
+} */
+
+@keyframes rec231{
+    0%{scale: 1.2;}
+    50%{scale: 1;} 
+    100%{scale: 1.2;}
+}
+
+.tekst_vverh{
+    width:25%;
+    margin-left: 72%;
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    
+}
+
+.excursion{
+    font-size: 7vw;
+    color: rgb(82, 107, 75);
+    display: flex;
+    position: absolute;
+    margin-top: 63%;
+}
+
+.fofairy{
+    width:60%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 60%;
+    margin-left: 19%;
+}
+
+.end{
+    width:93%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 146%;
+    margin-left: 3%;
+}
+
+.igra1{
+    display: flex;
+    position: absolute;
+    width:43%;
+    margin-left: 3%;
+    margin-top: 2%;
 }
