@@ -8,3 +8,14 @@
 .excursion{
     font-family:"SnellRoundhand";
 }
+
+.popup p{
+    font-family:"Cormorant-Bold";
+}
+
+@font-face {
+    font-family:"Cormorant-Bold";
+    src:url(../Cormorant/static/Cormorant-Bold.ttf)format("truetype");
+    font-weight: bold;
+    font-style: bold;
+}

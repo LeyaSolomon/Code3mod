@@ -207,12 +207,12 @@ body{
     cursor: pointer;
     transform: rotate(45deg);
     transition: all 1s ease-in-out;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .lepestok2{
-    width:5vw;
-    height: 5vw;
+    width:7vw;
+    height: 7vw;
     background-color: rgb(250,105,118);
     margin: 1px;
     border-radius: 50%;
@@ -222,19 +222,19 @@ body{
 }
 
 .flower3{
-    margin-left: 55%;
+    margin-left: 48%;
     display: flex;
     position: absolute;
     cursor: pointer;
     transform: rotate(45deg);
     transition: all 1s ease-in-out;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .lepestok3{
-    width:5vw;
-    height: 5vw;
-    background-color: rgb(245, 209, 133);
+    width:10vw;
+    height: 10vw;
+    background-color: rgb(255, 203, 93);
     margin: 1px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.5s;
@@ -243,7 +243,7 @@ body{
 }
 
 .flower1{
-    margin-left: 10%;
+    margin-left: 8%;
     display: flex;
     position: absolute;
     cursor: pointer;
@@ -255,7 +255,7 @@ body{
 .lepestok1{
     width:7vw;
     height: 7vw;
-    background-color: rgb(245, 209, 133);
+    background-color: rgb(255, 203, 93);
     margin: 1px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.5s;
@@ -297,7 +297,7 @@ body{
 .lepestok5{
     width:7vw;
     height: 7vw;
-    background-color: rgb(245, 209, 133);
+    background-color: rgb(255, 203, 93);
     margin: 1px;
     border-radius: 50%;
     transition: background-color 0.3s, transform 0.5s;
@@ -392,7 +392,7 @@ body{
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: 146%;
+    margin-top: 144%;
     margin-left: 3%;
 }
 
@@ -418,17 +418,168 @@ body{
     position: absolute;
     margin-left: 13%;
     margin-top: 52%;
+    transition: all 1s ease;
 }
 
-/* .knopka:hover{
-    transition: transform 0.3s ease;
+.knopka:hover{
+    transition: all 1s ease;
+    animation:  transform 1s linear ;
 }
 
 @keyframes transform{
-    0%{scale:1.1}
+    0%{scale:1}
+    50%{scale:1.1}
     100%{scale:1}
-} */
+}
 
-.knopka:hover{
-    transform: scale(1.1)
+.окунись{
+    width:40%;
+    display: flex;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 33%;
+}
+
+.собери1{
+    width:35%;
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+
+.krilo1{
+    width: 15%;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 9.5%;
+}
+
+.krilo2{
+    width: 15%;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 24.5%;
+}
+
+.krilo3{
+    width: 10%;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 14.5%;
+}
+
+.krilo4{
+    width: 10%;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 24.5%;
+}
+
+.igra2{
+    display: flex;
+    position: absolute;
+    width:38%;
+    margin-left: 59%;
+    margin-top: 74%;
+}
+
+.knopka2{
+    display: flex;
+    position: absolute;
+    width:18%;
+    margin-left: 69%;
+    margin-top: 98%;
+    transition: all 1s ease;
+}
+
+.knopka2:hover{
+    transition: all 1s ease;
+    animation:  transform 1s linear ;
+}
+
+@keyframes transform{
+    0%{scale:1}
+    50%{scale:1.1}
+    100%{scale:1}
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 249, 238);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+    z-index: 1000;
+}
+
+.popup p{
+    font-size: 20px;
+    color: rgb(82, 107, 75);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.close{
+    background: rgb(253, 174, 195);
+    color: rgb(255, 249, 238);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.blok4{
+    display: flex;
+    position: absolute;
+    width:38%;
+    margin-left: 20%;
+    margin-top: 94.5%;
+}
+
+.blok5{
+    display: flex;
+    position: absolute;
+    width:33%;
+    margin-left: 27%;
+    margin-top: 83%;
+}
+
+.bloc6{
+    display: flex;
+    position: absolute;
+    width:105%;
+    margin-left: -8%;
+    margin-top: 115%;
+}
+
+.star{
+    display: flex;
+    position: absolute;
+    width:20%;
+    margin-left: 70%;
+    margin-top: 18%;
+    animation: scaleStar 5s infinite alternate;
+}
+  
+@keyframes scaleStar {
+0% {transform: scale(1);}
+100% {transform: scale(1.5);}
 }
