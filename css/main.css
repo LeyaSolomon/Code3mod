@@ -584,9 +584,11 @@ body{
 100% {transform: scale(1.5);}
 }
 
-.butterfly{
+
+.butterfly {
     position: absolute;
     height: auto;
+    width: auto;
     cursor: pointer;
     animation: float 2s infinite ease-in-out;
     transition: opacity 0.5s ease; 
@@ -598,19 +600,16 @@ body{
     100% { transform: translateY(0px); }
 }
 
-.b1{
-    display: flex;
+.b1 {
     position: absolute;
-    width:14%;
+    width: 14%;
     margin-left: 32%;
     margin-top: 122%;
 }
 
-
-.b2{
-    display: flex;
+.b2 {
     position: absolute;
-    width:8%;
+    width: 8%;
     margin-left: 14%;
     margin-top: 130%;
 }
