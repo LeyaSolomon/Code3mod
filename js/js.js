@@ -113,5 +113,16 @@ document.addEventListener("DOMContentLoaded", function(){
       popup.style.display = "none";
       overlay.style.display = "none";
     });
+});
 
+document.querySelectorAll('.butterfly').forEach(butterfly => {
+  butterfly.style.left = Math.random() * window.innerWidth + 'px';
+  butterfly.style.top = Math.random() * window.innerHeight + 'px';
+  butterfly.style.animationDuration = (3 + Math.random() * 2) + 's';
+
+  butterfly.addEventListener('click', function() {
+    this.style.transition = 'opacity 0.5s';
+    this.style.opacity = '0';
+    setTimeout(() => this.remove(), 500);
+  });
 });

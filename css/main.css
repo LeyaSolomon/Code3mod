@@ -583,3 +583,34 @@ body{
 0% {transform: scale(1);}
 100% {transform: scale(1.5);}
 }
+
+.butterfly{
+    position: absolute;
+    height: auto;
+    cursor: pointer;
+    animation: float 2s infinite ease-in-out;
+    transition: opacity 0.5s ease; 
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+.b1{
+    display: flex;
+    position: absolute;
+    width:14%;
+    margin-left: 32%;
+    margin-top: 122%;
+}
+
+
+.b2{
+    display: flex;
+    position: absolute;
+    width:8%;
+    margin-left: 14%;
+    margin-top: 130%;
+}
