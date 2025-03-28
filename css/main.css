@@ -567,16 +567,16 @@ body{
     position: absolute;
     width:105%;
     margin-left: -8%;
-    margin-top: 115%;
+    margin-top: 108%;
 }
 
 .star{
     display: flex;
     position: absolute;
     width:20%;
-    margin-left: 70%;
+    margin-left: 74%;
     margin-top: 18%;
-    animation: scaleStar 5s infinite alternate;
+    animation: scaleStar 1s infinite alternate;
 }
   
 @keyframes scaleStar {
@@ -588,7 +588,7 @@ body{
     position: absolute;
     width: 14%;
     margin-left: 34%;
-    margin-top: 122%;
+    margin-top: 114%;
     animation: float 2s infinite ease-in-out;
     transition: opacity 0.5s ease; 
 }
@@ -636,56 +636,56 @@ body{
     position: absolute;
     width: 6%;
     margin-left: 8%;
-    margin-top: 132%;
+    margin-top: 122%;
 }
 
 .b3 {
     position: absolute;
     width: 10%;
     margin-left: 60%;
-    margin-top: 128%;
+    margin-top: 120%;
 }
 
 .b4 {
     position: absolute;
     width: 6%;
     margin-left: 60%;
-    margin-top: 122%;
+    margin-top: 116%;
 }
 
 .b5 {
     position: absolute;
     width: 13%;
     margin-left: 75%;
-    margin-top: 125%;
+    margin-top: 120%;
 }
 
 .b6 {
     position: absolute;
     width: 8%;
-    margin-left: 12%;
-    margin-top: 122%;
+    margin-left: 16%;
+    margin-top: 120%;
 }
 
 .b7 {
     position: absolute;
-    width: 8%;
+    width: 9%;
     margin-left: 25%;
-    margin-top: 132%;
+    margin-top: 123%;
 }
 
 .b8 {
     position: absolute;
     width: 10%;
     margin-left: 48%;
-    margin-top: 130%;
+    margin-top: 120%;
 }
 
 .b9 {
     position: absolute;
     width: 6%;
     margin-left: 78%;
-    margin-top: 120%;
+    margin-top: 114%;
     animation: fl 1s infinite ease-in-out;
     transition: opacity 0.5s ease; 
 }
@@ -700,7 +700,7 @@ body{
     position: absolute;
     width: 12%;
     margin-left: 6%;
-    margin-top: 76%;
+    margin-top: 72%;
     animation: move-left-right 1s infinite alternate;
 }
 
@@ -711,8 +711,8 @@ body{
 
 .star_ye{
     position: absolute;
-    width: 25%;
-    margin-left: 25%;
+    width: 23%;
+    margin-left: 32%;
     margin-top: 74%;
     animation: rec1 3s infinite ease-in-out;
 }
@@ -723,3 +723,96 @@ body{
     100%{scale: 1;} 
 }
 
+.шарики1{
+    width: 25%;
+    position: absolute;
+    margin-left:48%;
+    margin-top: 3%;
+    animation: m 0.8s infinite alternate;
+}
+
+.шарики2{
+    width: 25%;
+    position: absolute;
+    margin-left:59%;
+    margin-top: 14%;
+    animation: mo-le-rig 0.5s infinite alternate;
+}
+
+@keyframes mo-le-rig {
+    0% { transform: translateX(0); }
+    100% {transform: translateX(15px);}
+}
+
+@keyframes m {
+    0% { transform: translateX(0); }
+    100% {transform: translateX(-15px);}
+}
+
+.шарики3{
+    width: 32%;
+    position: absolute;
+    margin-left:56%;
+    margin-top: 35%;
+    animation: flo 1s infinite ease-in-out;
+}
+
+.шарики4{
+    width: 28%;
+    position: absolute;
+    margin-left:64%;
+    margin-top: 39%;
+    animation: flo 0.8s infinite ease-in-out;
+}
+
+@keyframes flo {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0px); }
+} 
+
+.st1{
+    width: 4%;
+    position: absolute;
+    margin-left:91%;
+    margin-top: 32%;
+    animation: re 3s infinite ease-in-out;
+}
+
+.st2{
+    width: 6%;
+    position: absolute;
+    margin-left:90%;
+    margin-top: 39%;
+    animation: re 2s infinite ease-in-out;
+}
+
+.st3{
+    width: 8%;
+    position: absolute;
+    margin-left:89%;
+    margin-top: 47%;
+    animation: re 1s infinite ease-in-out;
+}
+
+.st4{
+    width: 8%;
+    position: absolute;
+    margin-left:89%;
+    margin-top: 56%;
+    animation: re 4s infinite ease-in-out;
+}
+
+.шарики5{
+    width: 21%;
+    position: absolute;
+    margin-left:13%;
+    margin-top: 70%;
+    animation: flo 3s infinite ease-in-out;
+}
+
+@keyframes re{     
+    0%{scale: 1;} 
+    50%{scale: 1.2;} 
+    100%{scale: 1;} 
+}
